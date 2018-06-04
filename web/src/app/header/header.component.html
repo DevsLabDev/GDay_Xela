@@ -1,0 +1,41 @@
+<header id="tg-header" class="tg-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <strong class="tg-logo"><a href="index.html"><img src="assets/images/logo.png" alt="company logo here"></a></strong>
+          <div class="tg-navigationarea">
+            <a class="tg-btn tg-btnbecommember" href="#registro"><!--<span class="tg-badge"></span>-->Registrate</a>
+            <nav id="tg-nav" class="tg-nav">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigation" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
+                <ul>
+                  <!--<li class="tg-active menu-item-has-children">
+                    <a href="#body">Home</a>
+                    <ul class="sub-menu">
+                      <li><a href="index.html" class="external">Home v1</a></li>
+                      <li><a href="index2.html" class="external">Home v2</a></li>
+                      <li><a href="index3.html" class="external">Home v3</a></li>
+                      <li><a href="index4.html" class="external">Home v4</a></li>
+                      <li><a href="index5.html" class="external">Home v5</a></li>
+                      <li><a href="blogdetail.html" class="external">Blogdetail</a></li>
+                      <li><a href="404.html" class="external">404 error</a></li>
+                    </ul>
+                  </li>-->
+                  <li *ngFor="let opt of menu" >
+                    <a href="{{ opt.id }}">{{ opt.nombre }}</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>

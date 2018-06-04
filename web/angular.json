@@ -25,7 +25,23 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js",
+              "src/assets/js/vendor/jquery-library.js",
+              "src/assets/js/vendor/bootstrap.min.js",
+              "src/assets/js/jquery.singlePageNav.min.js",
+              "src/assets/js/photoswipe-ui-default.js",
+              "src/assets/js/customScrollbar.min.js",
+              "src/assets/js/owl.carousel.min.js",
+              "src/assets/js/photoswipe.min.js",
+              "src/assets/js/prettyPhoto.js",
+              "src/assets/js/tilt.jquery.js",
+              "src/assets/js/countdown.js",
+              "src/assets/js/parallax.js",
+              "src/assets/js/gmap3.js",
+              "src/assets/js/main.js",
+              "src/assets/js/jquery-scrolltofixed.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -74,7 +90,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
