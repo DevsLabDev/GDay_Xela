@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyBLFF32nC6NPJ67Qe01eK5Xp5OjCl52WPQ',
+    authDomain: 'gday-xela.firebaseapp.com',
+    databaseURL: 'https://gday-xela.firebaseio.com',
+    projectId: 'gday-xela',
+    storageBucket: 'gday-xela.appspot.com',
+    messagingSenderId: '201860626926'
+  }
 };
 
 /*

@@ -2,6 +2,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
+import { AngularFireModule } from 'angularfire2';
+import {AngularFireDatabaseModule} from 'angularfire2/database';
+import {AngularFireAuthModule} from 'angularfire2/auth';
+import {environment} from '../environments/environment';
 import { AppComponent } from './app.component';
 import { SidenavholderComponent } from './sidenavholder/sidenavholder.component';
 import { HeaderComponent } from './header/header.component';
@@ -16,6 +20,7 @@ import { PriceComponent } from './price/price.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
 import { VenueComponent } from './venue/venue.component';
+import {OwlModule} from 'ngx-owl-carousel';
 
 @NgModule({
   declarations: [
@@ -37,7 +42,11 @@ import { VenueComponent } from './venue/venue.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAuthModule,
+    AngularFireDatabaseModule,
+    OwlModule
   ],
   providers: [],
   bootstrap: [AppComponent]

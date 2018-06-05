@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {AngularFireDatabase} from 'angularfire2/database';
+import {Observable} from 'rxjs';
+import {Speaker} from '../entitys/speaker';
 
 @Component({
   selector: 'app-speakers',
@@ -7,7 +10,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SpeakersComponent implements OnInit {
 
-  constructor() { }
+  speakers: Observable<Speaker[]>;
+
+  constructor( db: AngularFireDatabase ) {
+    this.speakers = db.list<Speaker>('speakers').valueChanges();
+  }
 
   ngOnInit() {
   }

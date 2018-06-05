@@ -3031,7 +3031,7 @@ blockquote{
 ============================================= */
 .tg-bgaddtocalendar{
 	position:relative;
-	background-image: url(../images/bg-parallax/bg-parallax-04.jpg);
+	background-image: url("/assets/images/bg-parallax/bg-parallax-04.jpg");
 	-webkit-background-size: 100% 100%;
 	-moz-background-size: 100% 100%;
 	-ms-background-size: 100% 100%;
