@@ -1,0 +1,9 @@
+#question-sent{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.form-control, textarea{
+    text-transform: none;
+}

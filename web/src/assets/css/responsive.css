@@ -201,7 +201,7 @@
 	.tg-registerholder {padding: 42px 20px;}
 }
 @media (max-width:991px){
-	body {padding: 217px 0 0;}
+	body {padding: 190px 0 0;}
 	.tg-header .tg-logo{
 		float:none;
 		width:200px;
@@ -303,7 +303,7 @@
 }
 @media (max-width:900px){ .tg-forntslider {margin: 41px 0;} }
 @media (max-width:767px){
-	body {padding: 139px 0 0;}
+	body {padding: 120px 0 0;}
 	.tg-logo{
 		margin:0;
 		float:left;
@@ -492,7 +492,7 @@
 	}
 }
 @media (max-width:568px){
-	body {padding: 222px 0 0;}
+	body {padding: 180px 0 0;}
 	.tg-logo{width: 130px;}
 	.tg-header .tg-logo{
 		float: none;

@@ -1,0 +1,15 @@
+#register-error {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+#register-done {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.form-control, textarea{
+    text-transform: none;
+}

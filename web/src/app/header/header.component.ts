@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
   menu: Menu[] = [
-    {id: '#tg-schedule', nombre: 'Programa'},
+    //{id: '#tg-schedule', nombre: 'Programa'},
     {id: '#tg-speakers', nombre: 'Speakers'},
     {id: '#tg-price', nombre: 'Precio'},
     {id: '#tg-venue', nombre: 'Locación'},

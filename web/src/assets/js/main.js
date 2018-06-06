@@ -152,7 +152,7 @@ jQuery(document).on('ready', function() {
 		loop:true,
 		nav:false,
 		animateIn: "fadeIn",
-		autoplay:false
+		autoplay:true
 	});
 	/* -------------------------------------
 			TESTIMONIAL SLIDER
@@ -199,10 +199,10 @@ jQuery(document).on('ready', function() {
 	var _tg_locationmap = jQuery("#tg-locationmap");
 	_tg_locationmap.gmap3({
 		marker: {
-			address: "1600 Elizabeth St, Melbourne, Victoria, Australia",
+			address: "Centro Intercultural, 21 Avenida, Quezaltenango",
 			options: {
 				title: "Event Orgnizer",
-				icon: "images/map-marker.png",
+				icon: "assets/images/map-marker.png",
 			}
 		},
 		map: {

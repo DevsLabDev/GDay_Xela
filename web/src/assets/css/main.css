@@ -35,7 +35,7 @@ body {
 body {
 	color: #767676;
 	background: #fff;
-	padding:139px 0 0;
+	padding:120px 0 0;
 	font:400 14px/22px 'Open Sans', Arial, Helvetica, sans-serif;
 }
 body h1,
@@ -813,14 +813,13 @@ body.tg-fixedme .tg-header{
 	height:auto;	
 	display:block;
 }
-body.tg-fixedme .tg-header .tg-logo{width:300px;}
 .tg-navigationarea{
 	float:right;
 	position:relative;
 	padding: 12px 0 11px;
 	margin-top: 30px;
 }
-body.tg-fixedme .tg-header .tg-navigationarea{padding: 0;}
+body.tg-fixedme .tg-header .tg-navigationarea{padding: 12px 0 11px;}
 .tg-nav,
 .tg-btnopenclose{float:right;}
 .tg-navigation {
@@ -1455,7 +1454,7 @@ body.tg-fixedme .tg-header .tg-navigationarea{padding: 0;}
 }
 .tg-bgtestimonials{
 	position:relative;
-	background:url(../images/testimonial-bg.jpg) no-repeat;
+	background:url("assets/images/testimonial-bg.jpg") no-repeat;
 	background-size:cover;
 }
 .tg-bgtestimonials:before{
@@ -1931,7 +1930,7 @@ blockquote{
 	height:100%;
 	width:43%;
 	position:absolute;
-	background:url(../images/bg-faqs.jpg) no-repeat;
+	background:url("assets/images/bg-faqs.jpg") no-repeat;
 	background-size:cover;
 }
 .tg-askquestions:after{
@@ -2581,7 +2580,7 @@ blockquote{
 	width:100%;
 	float:left;
 	position:relative;
-	background:url(../images/bg-register.jpg) no-repeat;
+	background:url("assets/images/bg-register.jpg") no-repeat;
 	background-size:cover;
 }
 .tg-registerholder{
@@ -3251,7 +3250,7 @@ body.tg-fixedme .tg-headervtwo:before{display:none;}
 			Testimonial V 2 Style
 ============================================= */
 .tg-bgtestimonialsvtwo{
-	background:url(../images/testimonial-bg-02.jpg) no-repeat;
+	background:url("assets/images/testimonial-bg-02.jpg") no-repeat;
 	background-size:cover;
 }
 /* =============================================

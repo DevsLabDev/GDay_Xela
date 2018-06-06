@@ -1,0 +1,32 @@
+.tg-logo{
+    margin-bottom: 0;
+}
+.tg-navigationarea{
+    margin-top: 0;
+}
+
+body.tg-fixedme .tg-header .tg-logo{width:300px;}
+
+@media (max-width: 1200px){
+    .tg-logo > a > img {
+        width: 240px;
+    }
+    body.tg-fixedme .tg-header .tg-logo {
+        width: 240px;
+    }
+    body {
+        padding-top: 120px;
+    }
+}
+
+@media (min-width: 1000px){
+    .tg-navigationarea{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 568px){
+    body{
+        padding-top: 180px;
+    }
+}
