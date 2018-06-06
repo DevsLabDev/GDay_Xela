@@ -1,9 +1,31 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
-  <title>Web</title>
+  <title>GDay - XELA</title>
+  <meta name='author' content='devslab, info@devslabgt.com'>
+  <meta name='keywords' content='google,day,gday,guatemala,XELA'>
+  <meta name='description' content='Este 17 de Agosto de 2018 nos veremos para el Google Day Xela en el Centro Intercultural'>
+  <meta name='subject' content='Google Day Xela'>
+  <meta name='copyright' content='devslab'>
+  <meta name='language' content='ES'>
+  <meta name="apple-mobile-web-app-title" content="My App">
+  <!-- New in iOS6 -->
+  <meta name='apple-mobile-web-app-capable' content='yes'>
+  <meta name='apple-touch-fullscreen' content='yes'>
+  <meta name='apple-mobile-web-app-status-bar-style' content='black'>
+  <meta name='format-detection' content='telephone=no'>
+  <!-- FACEBOOK -->
+  <meta property="og:title" content="Google Day XELA">
+  <meta property="og:description" content="Este 17 de Agosto de 2018 nos veremos para el Google Day Xela en el Centro Intercultural">
+  <meta property="og:image" content="assets/images/banner/img-01.jpg">
+  <meta property="og:url" content="https://gdayxela.tecnoagenda.com/">
+  <!-- TWITTER -->
+  <meta property="twitter:title" content="Google Day XELA">
+  <meta property="twitter:description" content="Este 17 de Agosto de 2018 nos veremos para el Google Day Xela en el Centro Intercultural">
+  <meta property="twitter:image" content="assets/images/banner/img-01.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,9 +34,29 @@
 
 <body id="body" class="tg-home tg-homethree">
   <div id="tg-wrapper" class="tg-wrapper tg-haslayout">
-    <app-root></app-root>
+    <app-root>
+      <div id="preloader">
+        <img src="assets/images/preloader.gif" >
+      </div>
+    </app-root>
   </div>
   <script src="https://maps.google.com/maps/api/js?key=AIzaSyCR-KEWAVCn52mSdeVeTqZjtqbmVJyfSus&language=en"></script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-120454715-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
 </body>
 
 </html>
