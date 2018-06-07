@@ -14,9 +14,8 @@
           </div>
         </div>
       </div>
-      <owl-carousel class="tg-eventspeakerslider tg-speakers owl-carousel"
-      [options]="{items:4, dots: false, navigation: false, autoplay: true}" [items]="speakers | async">
-      <div class="item tg-speaker" *ngFor="let speaker of speakers | async">
+      <div id="" class="tg-eventspeakerslider tg-speakers" >
+      <div class="item tg-speaker col-md-3 col-sm-4 col-xs-12 " *ngFor="let speaker of speakers | async" >
           <figure class="tg-speakerimg">
             <img src="{{ speaker.foto }}" alt="{{ speaker.nombre }}">
           </figure>
@@ -59,7 +58,7 @@
             </ul>
           </div>
         </div>
-      </owl-carousel>>
+      </div>
     </div>
   </div>
 </section>
