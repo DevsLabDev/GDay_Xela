@@ -7,3 +7,7 @@
 .form-control, textarea{
     text-transform: none;
 }
+
+.tg-panel > h4 {
+    text-transform: none;
+}

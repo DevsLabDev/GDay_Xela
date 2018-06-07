@@ -6,7 +6,7 @@
           <div class="tg-headholder">
             <div class="tg-sectionhead tg-textalignleft">
               <div class="tg-sectionheading">
-                <span>Llega primero y consiga el mejor lugar</span>
+                <span>Llega primero y consigue el mejor lugar</span>
                 <h2>Locación y Registro</h2>
               </div>
               <div class="tg-description">
@@ -33,7 +33,7 @@
                 <div class="tg-registerholder">
                   <div class="tg-registercontent">
                     <div class="tg-heading">
-                      <h2>Registrate
+                      <h2>Regístrate,
                         <span>queremos conocerte.</span>
                       </h2>
                     </div>
@@ -42,7 +42,7 @@
                     registerForm.reset();" >
                       <fieldset>
                         <div class="form-group" >
-                          <input #nombre="ngModel" ngModel required type="text" name="nombre" class="form-control" placeholder="Nombre completo*">
+                          <input #nombre="ngModel" ngModel required type="text" name="nombre" class="form-control" placeholder="Nombre Completo*">
                         </div>
                         <div class="form-group">
                           <input #email="ngModel" ngModel required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+" type="email" 
@@ -50,11 +50,11 @@
                         </div>
                         <div class="form-group">
                           <input #phone="ngModel" ngModel type="phone" pattern="[0-9]{8}"
-                          name="phone" class="form-control" placeholder="Teléfono (Optional)">
+                          name="phone" class="form-control" placeholder="Teléfono (Opcional)">
                         </div>
                         <div class="form-group">
                           <input #ticket="ngModel" ngModel required pattern="[0-9]{4}"
-                          type="text" name="ticket" class="form-control" placeholder="Entrada*">
+                          type="text" name="ticket" class="form-control" placeholder="Número de Entrada*">
                         </div>
                         <button [disabled]="registerForm.invalid" type="submit" class="tg-btn">Registrar</button>
                         <div class="form-group">
@@ -62,13 +62,13 @@
                             ¡Bienvenido {{ success }}! Te hemos enviado algo de información.
                           </span>
                           <span id="register-error" *ngIf="error" >
-                            La entrada {{ error }} ya la han registrado. Si es un error, comunicate con nosotros.
+                            La entrada {{ error }} ya la han registrado. Si es un error, comunícate con nosotros.
                           </span>
                         </div>
                       </fieldset>
                     </form>
                     <div class="tg-sendquery">
-                      <h2>Comunicate con nosotros</h2>
+                      <h2>Comunícate con nosotros:</h2>
                       <h4>info@devslabgt.com</h4>
                     </div>
                   </div>

@@ -137,7 +137,7 @@ jQuery(document).on('ready', function() {
 	var _tg_upcomingeventcountervtwo = jQuery('#tg-upcomingeventcountervtwo');
 	_tg_upcomingeventcountervtwo.countdown('2018/08/17', function(event) {
 		var $this = jQuery(this).html(event.strftime(''
-			+ '<div class="tg-eventcounterholder"><div class="tg-eventcounter"><span>%-D</span><span> Dias</span></div></div>'
+			+ '<div class="tg-eventcounterholder"><div class="tg-eventcounter"><span>%-D</span><span> Días</span></div></div>'
 			+ '<div class="tg-eventcounterholder"><div class="tg-eventcounter"><span>%H</span><span>Horas</span></div></div>'
 			+ '<div class="tg-eventcounterholder"><div class="tg-eventcounter"><span>%M</span><span>Minutos</span></div></div>'
 			+ '<div class="tg-eventcounterholder"><div class="tg-eventcounter"><span>%S</span><span>Segundos</span></div></div>'
